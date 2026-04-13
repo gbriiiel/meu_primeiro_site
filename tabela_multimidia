@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planos de assinaturas</title>
+</head>
+<body>
+    <h2>Planos de assinaturas:</h2><br>
+
+    <table border="4">
+        <thead>
+            <tr>
+                <th>Recursos</th>
+                <th>Básico</th>
+                <th>Padrão</th>
+                <th>Premium</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Qualidade de vídeo</td>
+                <td>HD 720p</td>    
+                <td>Full HD 1080p</td>
+                <td>4K Ultra HD</td>
+            </tr>
+
+            <tr>
+                <td rowspan="2">Telas silmutaneas</td>
+                <td>1 tela</td>
+                <td>2 telas</td>
+                <td>4 telas</td>
+            </tr>
+
+            <tr>
+                <td>Individual</td>
+                <td>Compartilhado</td>
+                <td>Familia</td>
+            </tr>
+
+            <tr>
+                <td>Downloud offline</td>
+                <td>Não</td>
+                <td>Sim</td>
+                <td>Sim</td>
+            </tr>
+
+            <tr>
+                <td>Preço mensal</td>
+                <td>R$ 19,90</td>
+                <td>R$ 35,90</td>
+                <td>R$ 54,90</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td colspan="4">Cancele quando quiser, sem taxa e sem multas.</td>
+            </tr>
+        </tfoot>
+
+    </table>
+</body>
+</html>
